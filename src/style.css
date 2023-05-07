@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+:root{
+    --body-background: #1C1C1C;
+    --section-background: #23252C;
+    --main-background: #1A1B21;
+    --footer-background: #161619;
+    --h1-color: #FFF;
+    --h2-color: #F3BF99;
+    --sub-title-color: #F5F5F5;
+    --icon-color: #918E9B;
+    --icon-size: 25px;
+    --mail-icon-color: #1E1F26;
+    --h1-size: 25px;
+    --h1-weight: bold;
+    --h1-line-height: 30.26px;
+    --h2-size: 12.8px;
+    --h2-weight: normal;
+    --h2-line-height: 15px;
+    --website-size: 10.24px;
+    --website-weight: normal;
+    --website-line-height: 150%;
+    --mail-size: 14px;
+    --mail-weight: medium;
+    --mail-line-height: 16;
+    --mail-icon-size: 16px;
+    --h3-size: 16px;
+    --h3-weight: bold;
+    --h3-line-height: 150%;
+    --text-color: #DCDCDC;
+    --text-size: 10.24px;
+    --text-weight: normal;
+    --text-line-height: 150%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--body-background);
+    font-family: 'Inter';
+}
+.app{
+    width: 550px;
+    height: 868px;
+    background: var(--section-background);
+    padding: 44px 116px;
+    margin: 53px auto;
+}
+.app figure{
+    width: 317px;
+    height: 317px;
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    background-color: var(--h2-color);
+}
+.profil{
+    width: 317px;
+}
+.main{
+    Width: 317px;
+    Height: 399px;
+    background: var(--main-background);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    color: var(--h1-color);
+    font-size: var(--h1-size);
+    font-weight: var(--h1-weight);
+    margin-top: 21px;
+    margin-bottom: 6.19px;
+    line-height: var(--h1-line-height);
+}
+.title h2{
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+    line-height: var(--h2-line-height);
+    color: var(--h2-color);
+    margin: 0;
+    margin-bottom: 8.81px;
+}
+.title .website{
+    font-size: var(--website-size);
+    font-weight: var(--website-weight);
+    line-height: var(--website-line-height);
+    color: var(--sub-title-color);
+    margin: 0;
+    text-decoration: none;
+}
+.title .mail{
+    width: 247px;
+    height: 34px;
+    background-color: var(--h1-color);
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    gap: 8px;
+    text-decoration: none;
+}
+.title .mail span{
+    font-size: var(--mail-size);
+    font-weight: var(--mail-weight);
+    color: #374151;
+    line-height: var(--mail-line-height);
+}
+.title .mail img{
+    width: var(--mail-icon-size);
+    height: var(--mail-icon-size);
+}
+.descreption{
+    margin: 0 35px 24px;
+    width: 247px;
+    height: 201px;
+}
+.descreption h3{
+    color: var(--sub-title-color);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+    line-height: var(--h3-line-height);
+    margin: 0;
+    margin-bottom: 5;
+}
+.descreption p{
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    line-height: var(--text-line-height);
+    color: var(--text-color);
+    margin: 0;
+    margin-bottom: 24px;
+}
+.footer{
+    width: 317px;
+    height: 64px;
+    background: var(--footer-background);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer a img{
+    width: var(--icon-size);
+    height: var(--icon-size);
+    color: var(--icon-color);
+}
